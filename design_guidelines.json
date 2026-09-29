@@ -1,0 +1,145 @@
+{
+  "project_name": "ACADEMIA DE INVESTIDORES",
+  "archetype": "ORGANIC & PERFORMANCE TECH (Finanças + Tecnologia + Educação)",
+  "language": "pt-BR",
+  "developer_credits": {
+    "name": "Eliel Souza",
+    "instagram": "@eliel_souza_._",
+    "display_text": "Desenvolvido por Eliel Souza • Instagram @eliel_souza_._"
+  },
+  "theme_strategy": {
+    "default_mode": "light",
+    "supports_dark_toggle": true,
+    "aesthetic": "Fintech Premium Educativa - Fusão entre a solidez do mercado financeiro e a agilidade da tecnologia moderníssima com elementos táteis de gamificação."
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Plus Jakarta Sans, Outfit, sans-serif",
+      "h1": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight",
+      "h3": "text-xl sm:text-2xl font-semibold tracking-tight",
+      "h4": "text-lg sm:text-xl font-semibold"
+    },
+    "body": {
+      "font_family": "Plus Jakarta Sans, Inter, sans-serif",
+      "base": "text-base text-slate-600 dark:text-slate-300 leading-relaxed",
+      "small": "text-sm text-slate-500 dark:text-slate-400"
+    },
+    "mono_numeric": {
+      "font_family": "JetBrains Mono, Roboto Mono, monospace",
+      "usage": "Valores monetários, taxas (CDI, Selic, IPCA+), gráficos e simulações de rentabilidade"
+    }
+  },
+  "colors": {
+    "primary_navy": {
+      "main": "#0B192C",
+      "light": "#1E293B",
+      "dark": "#030712",
+      "hover": "#1E3A8A"
+    },
+    "cyan_accent": {
+      "main": "#06B6D4",
+      "bright": "#00F0FF",
+      "light": "#E0F2FE",
+      "glow": "rgba(6, 182, 212, 0.25)"
+    },
+    "gold_premium": {
+      "main": "#F59E0B",
+      "light": "#FEF3C7",
+      "dark": "#B45309",
+      "badge": "#D97706",
+      "glow": "rgba(245, 158, 11, 0.25)"
+    },
+    "neutrals": {
+      "bg_light": "#F8FAFC",
+      "card_light": "#FFFFFF",
+      "bg_dark": "#0B132B",
+      "card_dark": "#1C2541",
+      "border_light": "#E2E8F0",
+      "border_dark": "#334155",
+      "text_main": "#0F172A",
+      "text_muted": "#64748B"
+    },
+    "status": {
+      "success": "#10B981",
+      "warning": "#F59E0B",
+      "danger": "#EF4444",
+      "info": "#3B82F6"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      { "id": "inicio", "label": "Início", "icon": "Home" },
+      { "id": "aprendizagem", "label": "Aprendizagem", "icon": "GraduationCap" },
+      { "id": "simulacao", "label": "Simulação", "icon": "Calculator" },
+      { "id": "ferramentas", "label": "Ferramentas", "icon": "Wrench" },
+      { "id": "estrategias", "label": "Estratégias", "icon": "Compass" },
+      { "id": "ia", "label": "IA Financeira", "icon": "Bot" },
+      { "id": "progresso", "label": "Sistema de Progresso", "icon": "Trophy" },
+      { "id": "glossario", "label": "Glossário", "icon": "BookOpen" },
+      { "id": "conteudos", "label": "Conteúdos", "icon": "FileText" },
+      { "id": "perfil", "label": "Perfil", "icon": "User" }
+    ],
+    "desktop_header": "Glassmorphic backdrop sticky z-50 navy/white header with level badge, XP bar, theme toggle, profile avatar and tab buttons",
+    "mobile_nav": "Fixed bottom bar with top 5 high frequency tabs + 'Mais' menu drawer for complete 10 tabs access"
+  },
+  "gamification_system": {
+    "xp_levels": [
+      { "level": 1, "title": "Iniciante Consciente", "min_xp": 0, "max_xp": 500, "badge": "🌱" },
+      { "level": 2, "title": "Aprendiz de Finanças", "min_xp": 501, "max_xp": 1500, "badge": "📘" },
+      { "level": 3, "title": "Investidor Ativo", "min_xp": 1501, "max_xp": 3500, "badge": "📈" },
+      { "level": 4, "title": "Estrategista Financeiro", "min_xp": 3501, "max_xp": 7000, "badge": "🧠" },
+      { "level": 5, "title": "Especialista em Mercados", "min_xp": 7001, "max_xp": 15000, "badge": "👑" }
+    ],
+    "medals": [
+      { "id": "m1", "name": "Primeira Economia", "desc": "Completou a 1ª aula da Trilha", "icon": "Coins", "unlocked": true },
+      { "id": "m2", "name": "Mestre da Reserva", "desc": "Calculou a reserva de emergência", "icon": "ShieldCheck", "unlocked": true },
+      { "id": "m3", "name": "Simulador de Futuro", "desc": "Realizou 3 simulações de juros compostos", "icon": "TrendingUp", "unlocked": false },
+      { "id": "m4", "name": "Amigo da IA", "desc": "Fez 5 perguntas à IA Financeira", "icon": "Sparkles", "unlocked": false },
+      { "id": "m5", "name": "Sabedoria em Palavras", "desc": "Consultou 10 termos no Glossário", "icon": "BookMarked", "unlocked": false },
+      { "id": "m6", "name": "Nível 5 Alcancado", "desc": "Tornou-se um Especialista", "icon": "Award", "unlocked": false }
+    ],
+    "learning_path_steps": 12
+  },
+  "image_urls": {
+    "hero_banner": "https://images.unsplash.com/photo-1660020619062-70b16c44bf0f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBncm93dGglMjBpbnZlc3RtZW50JTIwZ3JhcGh8ZW58MHx8fGJsdWV8MTc4ODUyODI5N3ww&ixlib=rb-4.1.0&q=85",
+    "student_learning": "https://images.unsplash.com/photo-1642165870627-cd54c078a11f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHw0fHxzbWlsaW5nJTIweW91bmclMjBpbnZlc3RvciUyMGxlYXJuaW5nJTIwZmluYW5jaWFsJTIwdGFibGV0fGVufDB8fHx8MTc4ODUyODI5N3ww&ixlib=rb-4.1.0&q=85",
+    "growth_staircase": "https://images.unsplash.com/photo-1652631631001-78de1939bee8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwzfHxmaW5hbmNpYWwlMjBncm93dGglMjBpbnZlc3RtZW50JTIwZ3JhcGh8ZW58MHx8fGJsdWV8MTc4ODUyODI5N3ww&ixlib=rb-4.1.0&q=85",
+    "mentor_session": "https://images.unsplash.com/photo-1522881193457-37ae97c905bf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBtZW50b3IlMjBzdHVkZW50JTIwZGlzY3Vzc2lvbiUyMGRlc2t8ZW58MHx8fHwxNzg4NTI4MzA1fDA&ixlib=rb-4.1.0&q=85",
+    "smiling_user": "https://images.unsplash.com/photo-1758523668811-fb15814e8166?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwxfHxzbWlsaW5nJTIweW91bmclMjBpbnZlc3RvciUyMGxlYXJuaW5nJTIwZmluYW5jaWFsJTIwdGFibGV0fGVufDB8fHx8MTc4ODUyODI5N3ww&ixlib=rb-4.1.0&q=85"
+  },
+  "component_structure": {
+    "header": "Responsive Header bar with sticky top, theme switcher, XP gauge, tab selectors",
+    "hero": "Dynamic Hero with quick CTAs, live market metrics ticker (CDI 13.25%, Selic 13.25%, IPCA 4.15%), key badges",
+    "learning_path": "Visual 12-step interactive roadmap with node status (Concluído, Em andamento, Bloqueado) and XP rewards",
+    "simulators_hub": "Tabs for Juros Compostos, CDI vs Poupança, Selic, IPCA+, Renda Passiva, Comparador de Ativos with Recharts live graphics",
+    "calculators_hub": "Calculadora de Reserva de Emergência, Independência Financeira, Aportes Mensais, Rendimento Real pós-inflação",
+    "strategies_hub": "Perfil de Investidor (Conservador, Moderado, Arrojado) quiz + Alocação Recomendada de Ativos",
+    "ai_assistant": "Interactive financial AI chatbot with quick prompt pills (ex: 'Como começar com R$ 100?', 'O que é CDI?')",
+    "progress_center": "Gamification dashboard with Level status, XP bar, unlocked achievements, daily quiz for +50 XP",
+    "glossary_view": "Filterable A-Z terms dictionary with instant search, categorizations (Renda Fixa, Renda Variável, Cripto, Macroeconomia)",
+    "content_articles": "Rich educational articles grid with reading time, difficulty tag, and bookmark functionality",
+    "user_profile": "User profile with avatar, overall stats, certificates earned, history, Google/Email login modal",
+    "footer": "Rich footer with brand values, quick links, credit note to Eliel Souza (Instagram @eliel_souza_._)"
+  },
+  "testing_and_data_attributes": {
+    "rule": "Every interactive button, tab, card, input, and metric MUST have a data-testid attribute in kebab-case format.",
+    "examples": [
+      "data-testid='nav-tab-inicio'",
+      "data-testid='nav-tab-simulacao'",
+      "data-testid='sim-compound-interest-button'",
+      "data-testid='ai-chat-send-button'",
+      "data-testid='user-xp-display'",
+      "data-testid='learning-step-1'",
+      "data-testid='developer-credits-link'"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Build a single-page application experience with smooth tab navigation for all 10 key areas.",
+    "Implement real-time interactive financial simulators using Recharts and formulas in Portuguese.",
+    "Add gamification state (XP, current level, completed steps, unlocked badges) saved to localStorage or React state.",
+    "Include developer credits 'Eliel Souza (Instagram @eliel_souza_._)' prominently in the footer and user profile modal.",
+    "Ensure total mobile responsiveness with bottom navigation on mobile devices and responsive desktop headers.",
+    "Use high contrast colors, crisp typography, and generous spacing as per E1 principles."
+  ]
+}
